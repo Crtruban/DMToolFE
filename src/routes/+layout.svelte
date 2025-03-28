@@ -11,7 +11,7 @@
         Droplet,
         Sparkle,
     } from "@lucide/svelte/icons";
-
+    export const prerender = true;
     import * as Sidebar from "$lib/components/ui/sidebar/index.js";
     import AppSidebar from "$lib/components/app-sidebar.svelte";
     import { Divide, MapIcon } from "@lucide/svelte/icons";
@@ -26,6 +26,7 @@
     import { ChevronDownOutline } from "flowbite-svelte-icons";
     import { mount } from "svelte";
     let clickOutsideModal = $state(false);
+    export const prerender = true;
 
     let mapHtml =
         '<img class="mapModal" alt="Zaldara\'s Dungeon Map" src={"/map.png"} />';
