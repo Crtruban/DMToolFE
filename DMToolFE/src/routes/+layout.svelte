@@ -29,7 +29,7 @@
 
     let mapHtml =
         '<img class="mapModal" alt="Zaldara\'s Dungeon Map" src={"/map.png"} />';
-    let showDropdown = false; // State to toggle dropdown visibility
+    let showDropdown = $state(false); // State to toggle dropdown visibility
 
     let sections = [
         {
@@ -100,14 +100,14 @@
     {#each chapters as chapter, index}
         <a class="drop-down-hover" href="/{chapter.url}">{chapter.title}</a>
     {/each}
-    <span class="drop-down-hover"
+    <span class="drop-down-hover" 
         >Zaldara's Dungeon<ChevronDownOutline
             class="w-6 h-6 ms-2 text-black dark:text-white"
         /></span
     >
-    <Dropdown class="dropdown">
+    <Dropdown bind:open={showDropdown} class="dropdown">
         {#each sections as section}
-            <DropdownItem href="/baseDungeon/{section.url}">
+            <DropdownItem href="/baseDungeon/{section.url}" on:click={() => (showDropdown = false)} >
                 <section.icon class="w-6 h-6" />
                 {section.title}
             </DropdownItem>
