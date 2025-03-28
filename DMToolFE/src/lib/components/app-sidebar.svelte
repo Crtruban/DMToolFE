@@ -100,14 +100,38 @@
 
 
 <style>
-    .mapModal {
-        opacity: 0.5;
-        transition: opacity 0.5s ease-out;
-        -moz-transition: opacity 0.5s ease-out;
-        -webkit-transition: opacity 0.5s ease-out;
-        -o-transition: opacity 0.5s ease-out;
+    /* Ensure the sidebar does not overlap the nav bar */
+    :global(.sidebar-root) {
+      position: fixed;
+      top: 60px; /* Adjust this to match the height of your nav bar */
+      left: 0;
+      width: 250px; /* Adjust the width as needed */
+      height: calc(100% - 60px); /* Subtract the height of the nav bar */
+      z-index: 1000; /* Ensure it stays below the nav bar if needed */
+      background-color: #f8f9fa; /* Optional: Set a background color */
+      overflow-y: auto; /* Enable scrolling if the content overflows */
     }
-    .mapModal:hover {
-        opacity: 1;
+  
+    /* Style for the nav bar */
+    :global(.app-nav-bar) {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 60px; /* Adjust the height as needed */
+      z-index: 1100; /* Ensure it stays above the sidebar */
+      background-color: #343a40; /* Optional: Set a background color */
+      color: white;
+      display: flex;
+      align-items: center;
+      padding: 0 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow */
     }
-</style>
+  
+    /* Add padding to the main content to avoid being hidden behind the nav bar */
+    :global(.main-content) {
+      margin-top: 60px; /* Match the height of the nav bar */
+      margin-left: 250px; /* Match the width of the sidebar */
+      padding: 20px;
+    }
+  </style>
