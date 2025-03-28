@@ -15,6 +15,9 @@ const config = {
 		alias: {
 			"@/*": "./path/to/lib/*",
 		  },
+		  paths: {
+			base: process.env.NODE_ENV === 'production' ? '/sveltekit-github-pages' : '',
+		  }
 	}
 };
 
