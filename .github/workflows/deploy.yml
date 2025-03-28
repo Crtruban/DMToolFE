@@ -81,10 +81,6 @@ jobs:
         run: |
           mkdir build
           npm run build
-      - name: Upload Artifacts
-        uses: actions/upload-pages-artifact@v2
-        with:
-          path: 'build/'
 
   deploy:
     needs: build_site
