@@ -14,7 +14,7 @@
         class="object-cover rounded-lg"
         style={"width:40%"}
       />
-      <Card class="flex justify-right" style={"width:25%; height: 25%"}>
+      <Card class=" scroll-card flex justify-right" style={"width:25%; height: 25%"}>
         <h5
           class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
         >
@@ -31,7 +31,7 @@
   <br />
   <div class="flex justify-between">
     <span style="width: 30%;">
-      <Card>
+      <Card >
         <h5
           class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
         >
@@ -39,12 +39,12 @@
         </h5>
         <ul>
           <li>
-            <span class="font-bold">Cell Doors</span> Each cell door has AC 19,
-            27 hit points, and is immune to poison and psychic damage. Except for
-            cell B, the doors are locked. A successful DC 15 Dexterity check with
-            thieves’ tools picks a door’s lock and a successful DC 20 Strength check
-            forces a door open. Zaldara holds a master key to all the basement’s
-            locked doors.
+            <span class="font-bold">Cell Doors</span> Each cell door has AC 19, 27
+            hit points, and is immune to poison and psychic damage. Except for cell
+            B, the doors are locked. A successful DC 15 Dexterity check with thieves’
+            tools picks a door’s lock and a successful DC 20 Strength check forces
+            a door open. Zaldara holds a master key to all the basement’s locked
+            doors.
           </li>
         </ul>
       </Card>
@@ -57,32 +57,32 @@
           Dungeon Flow
         </h5>
         <ul>
-          <li>This is effectively a dead end. However players should try to
-             free Elonast for assistance in the cellar.
+          <li>
+            This is effectively a dead end. However players should try to free
+            Elonast for assistance in the cellar.
           </li>
         </ul>
       </Card>
-      <br/>
-      <br/>
+      <br />
+      <br />
       <Card>
         <h5
           class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
         >
-        Sewer Plague
+          Sewer Plague
         </h5>
         <ul>
-          <li>It takes 1d4 days for sewer plague’s symptoms to manifest in
-            an infected creature. Symptoms include fatigue and cramps.
-            The infected creature suffers one level of exhaustion, and it
-            regains only half the normal number of hit points from
-            spending Hit Dice and no hit points from finishing a long rest.
-            At the end of each long rest, an infected creature must
-            make a DC 11 Constitution saving throw. On a failed save, the
-            character gains one level of exhaustion. On a successful save,
-            the character’s exhaustion level decreases by one level. If a
-            successful saving throw reduces the infected creature’s level
-            of exhaustion below 1, the creature recovers from the
-            disease.
+          <li>
+            It takes 1d4 days for sewer plague’s symptoms to manifest in an
+            infected creature. Symptoms include fatigue and cramps. The infected
+            creature suffers one level of exhaustion, and it regains only half
+            the normal number of hit points from spending Hit Dice and no hit
+            points from finishing a long rest. At the end of each long rest, an
+            infected creature must make a DC 11 Constitution saving throw. On a
+            failed save, the character gains one level of exhaustion. On a
+            successful save, the character’s exhaustion level decreases by one
+            level. If a successful saving throw reduces the infected creature’s
+            level of exhaustion below 1, the creature recovers from the disease.
           </li>
         </ul>
       </Card>

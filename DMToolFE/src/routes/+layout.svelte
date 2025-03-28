@@ -48,7 +48,7 @@
             icon: Columns4,
         },
         {
-            title: "Kraken Door(Z5)",
+            title: "Kraken Door",
             url: "krack",
             icon: FishSymbol,
         },

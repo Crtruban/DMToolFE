@@ -12,7 +12,7 @@
         {src}
         alt="map"
         class="object-cover rounded-lg"
-        style={"width:40%"}
+        style={"width:800px"}
       />
       <Card
         class="scroll-card flex justify-right"
@@ -20,11 +20,7 @@
       >
         <Tabs class="tab-group" tabStyle="full">
           <Tab open class="tab-item h5" title="Z2">
-            <h5
-              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-            >
-              Skeleton Landing: Read as players enter
-            </h5>
+            <h5 class="tab-header">Skeleton Landing: Read as players enter</h5>
             <Card class="scroll-card">
               A voice from the darkness whispers with the dry rattle of death
               and malice. “By mistake or by foolishness, you have come too far.
@@ -41,11 +37,7 @@
             Ceiling. The ceiling is 15 feet high in this area.
           </Tab>
           <Tab class="tab-item" title="Z3">
-            <h5
-              class="tab-header"
-            >
-              Z3: Glittering Ooze Lair
-            </h5>
+            <h5 class="tab-header">Z3: Glittering Ooze Lair</h5>
             <Card class="scroll-card">
               The sound of dripping water grows more rapid here. Drops hit the
               ground so frequently, it’s almost as if the stalactites are
@@ -53,34 +45,67 @@
               feet above the ground big enough for a crouched human.
             </Card>
             <p>
-              A <b>glittering ooze</b> disguised as a stalactite clings to the ceiling,
-              waiting for a character to walk beneath it so it can attack.
-              <br/>
-              <b>Ceiling.</b> The ceiling is 15 feet high in this area. Crawlspace. A
-              successful DC 15 Strength (Athletics) check is required to climb
-              the wet wall to get into the area where the gray ooze likes to
-              feast on its victims. There are half-dissolved bones scattered in
-              the space.
-              <br/>
-              <b>Wet Floor.</b> Each time a creature moves more than half
-              its speed across the floor of this area, it must succeed on a DC
-              10 Dexterity (Acrobatics) check or fall prone. 
-            <br/>
-              <b>Treasure.</b> A character who searches through the bones in the crawlspace finds a
-              half-dissolved lead case that holds 10 +1 bolts.
+              A <b>glittering ooze</b> disguised as a stalactite clings to the
+              ceiling, waiting for a character to walk beneath it so it can
+              attack. It's located on the very northern edge of the area, 10
+              feet.
+              <br />
+              <b>Ceiling.</b> The ceiling is 15 feet high in this area.
+              Crawlspace. A successful DC 15 Strength (Athletics) check is
+              required to climb the wet wall to get into the area where the gray
+              ooze likes to feast on its victims. There are half-dissolved bones
+              scattered in the space.
+              <br />
+              <b>Wet Floor.</b> Each time a creature moves more than half its
+              speed across the floor of this area, it must succeed on a DC 10
+              Dexterity (Acrobatics) check or fall prone.
+              <br />
+              <b>Treasure.</b> A character who searches through the bones in the
+              crawlspace finds a half-dissolved lead case that holds 10 +1 bolts.
             </p>
           </Tab>
           <Tab class="tab-item" title="Z4">
-            <h5
-              class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
-            >
-              Z4: Description
-            </h5>
+            <h5 class="tab-header">Z4: Gem Chamber</h5>
+            <Card class="scroll-card">
+              Your light source is caught and refracted hundreds of times by the
+              large pink crystals coming out of the walls and ceiling.
+            </Card>
             <p>
-              A hidden chamber lies beyond the glittering cavern. The chamber
-              contains a treasure chest protected by a magical trap. A
-              successful DC 15 Intelligence (Arcana) check reveals the trap and
-              how to disable it.
+              The gems are part of a trap set by Zaldara. <br />
+              <b>Ceiling.</b> The ceiling is 15 feet high in this area.<br />
+              <b> Gemstones.</b> A detect magic spell reveals each crystal in
+              the chamber radiates an aura of conjuration magic. Characters
+              proficient with jeweler’s tools know the gems are unnatural and
+              worthless. A creature that breaks a gem off of the wall or ceiling
+              must succeed on a DC 12 Charisma saving throw or it is teleported
+              into cell A in area Z12.
+              <br />
+              A key to bypass the Kraken Door exists in here, if a player rolls an
+              investigation of 18 or higher they will find the key.
+              <br /><b> On successful rolls read the following:</b>
+              <Card class="scroll-card">
+                Brushing away the dust, your fingers close around a smooth, cold
+                gemstone half-buried in the sand. As you lift it into the light,
+                the intricate engraving of a kraken emerges—tentacles curling
+                around the edges as if ready to ensnare. The gemstone shimmers
+                with an eerie, deep-sea glow, and for a brief moment, you swear
+                you feel something stir beneath your fingertips, as if the
+                creature itself is watching… waiting.
+              </Card>
+              <br />
+              <b>On failed investigations read this instead:</b>
+              <Card class="scroll-card">
+                Change it if they do this multiple times (CHAT GPT PROMPT: "Give
+                a short description of being teleported by a magical gem into a
+                dungeon" ) As you clutch the glowing gem, a surge of energy
+                jolts through your body. The air warps, light twists, and in an
+                instant, the world vanishes. A heartbeat later, you reappear
+                with a dull thud on cold, damp stone. The stench of mildew fills
+                your lungs, and the dim glow of flickering torches reveals
+                rusted iron bars enclosing you. The gem in your hand fades to
+                darkness—its magic spent—leaving you alone in the silent depths
+                of a dungeon.
+              </Card>
             </p>
           </Tab>
         </Tabs>
@@ -101,25 +126,9 @@
           <li>Any players without dark vision will not be able to see.</li>
           <li>
             If a player cretes a light source(Either through spells, or lighting
-            a torch) they will see glimmering coming from the stairway on the
-            south western side.
-          </li>
-          <br />
-          <br />
-          <li>
-            <span class="font-bold">Skull Door</span>. The door that leads to
-            area Z12 is locked and trapped. A detect magic spell reveals the
-            door radiates an aura of necromancy magic. A successful DC 15
-            Intelligence (Arcana) check recognizes the trap for what it is and
-            reveals how to disable it. The trap is triggered when a creature
-            that is not undead touches the door, an attempt to pick the door’s
-            lock fails, or the door is attacked. The skull’s eyes emit a line of
-            necrotic energy that is 15 feet long and 5 feet wide that shoots
-            down the stairs. Each creature in the line must succeed on a DC 10
-            Constitution saving throw or gain one level of exhaustion. Creatures
-            that fail this saving throw by 5 or more gain two levels of
-            exhaustion. Scratching out both the skull’s eyes with a weapon or
-            tool disables the trap.
+            a torch) light will refract from all the shining objects from water,
+            and gemstones. This light will last about 5 minutes. Be sure to
+            remind players who don't have darkvision of this.
           </li>
         </ul>
       </Card>
@@ -132,13 +141,29 @@
           Dungeon Flow
         </h5>
         <ul>
-          <li>Going to the north with lead the players to the dungeon</li>
           <li>
-            Going south west will lead players to the glittering cavern. Combat
-            will start unless sneaking. If players cause a lot of commotion or
-            take too long, the skeletons in the glittering cavern will
-            investigate. Those with passive perception of 13 or higher will hear
-            the skeletons approach.
+            If the players had not already fought the skeletons, combat will
+            begin almost immediatly coming up to Z2.
+          </li>
+          <li>
+            Players will be able to make a choice of Z3 or Z4, they won't be
+            able to easily see into one from Z2, but they can easily approach
+            each room and reutnr without startting any encounters
+          </li>
+          <br />
+          <li>
+            The ooze will attack them if they are not careful.Players will be
+            able to see the ooze if they are within 10 feet of it.
+          </li>
+          <br />
+          <l1>
+            Z4 all traps can be avoided, but be sure to try to entice them to
+            interact with the gems.
+          </l1>
+          <li>
+            Once past their respective rooms, the players will come across the
+            Kraken Door. If they choose to ignore it, proceed to the respective
+            other room.
           </li>
         </ul>
       </Card>
