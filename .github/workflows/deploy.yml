@@ -24,13 +24,14 @@ jobs:
           cache: npm
 
       - name: Install dependencies
-        run: sudo npm install
+        run: npm install
 
       - name: build
         env:
           BASE_PATH: '/${{ github.event.repository.name }}'
         run: |
-          sudo npm run build
+          export PATH=$(npm bin):$PATH
+          npm run build
 
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v3
