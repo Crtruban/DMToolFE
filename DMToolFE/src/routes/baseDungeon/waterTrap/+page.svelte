@@ -18,63 +18,76 @@
         class="scroll-card flex justify-right"
         style={"width:25%; height: 25%"}
       >
-        <Tabs class="tab-group" tabStyle="full">
-          <Tab open class="tab-item h5" title="Z8">
-            <h5 class="tab-header">Ghoul Hall</h5>
-            <Card class="scroll-card">
-              A strong mildew smell permeates this room. Green algae grows like
-              moss from cracks in the walls, floor, and ceiling. A skeleton lies
-              at the room’s center, its hand caught in a closed, steel trapdoor.
-            </Card>
-            <br /><br />
-            Behind the shield are are two rusty <b>flying swords</b>
-            that attack any creature that removes the shield from the wall. The two
-            levels of this chamber are 10 feet apart and connected by the stairs.<br
-            />
-            <b>Treasure.</b> The shield on the wall is a shield of missile attraction
-            that appears to be an arrowcatching shield.
-          </Tab>
-          <Tab class="tab-item" title="Z9">
-            <h5 class="tab-header">Z9: Stairs Up</h5>
-            <Card class="scroll-card">
-              Stone stairs curl up in a spiral, completely filled with corpses.
-              From the cries of battle, the ring of steel, and the scent of fire
-              and blood, you know the battle upstairs rages as the Harpers take
-              on the minions of Zaldara. The best way to help the Harpers is to
-              stay down here and find the lich’s phylactery.
-            </Card>
-            <br />
-            <p>
-              The stair case is completely blocked off with corpses and gore.
-              Players can certainly move the corpse to ascend the stairs, but
-              this will be a fruitless effort. If this continues for more than
-              neccesarry send a <b>Flesh Golem</b> or two emerging from the corpses
-              to fight and hopefully deter players.
-            </p>
-          </Tab>
-        </Tabs>
+        <h5 class="tab-header">Water Trap Chamber</h5>
+        <Card class="scroll-card">
+          A strong mildew smell permeates this room. Green algae grows like moss
+          from cracks in the walls, floor, and ceiling. A skeleton lies at the
+          room’s center, its hand caught in a closed, steel trapdoor.
+        </Card>
+        <p>
+          The players can interact with the trap if they'd like, or they can
+          continue to the south into Zaldara's Vault(Z13)
+        </p>
       </Card>
     </div>
   </div>
   <br />
   <br />
   <div class="flex justify-between">
-    <span class="justify-center centered-element" style="width: 35%;">
+    <span class="justify-center centered-element" style="width: 30%;">
       <Card class="scroll-card">
         <h5
           class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
         >
-          Dungeon Flow
+          Room Explanation
         </h5>
         <ul>
           <li>
-            If the players don't interact with the shield, they can continue
-            onto Z11, AKA the Water Trap Room.
+            This room is meant to kill intruders. When the trapdoor is opened,
+            the skeleton comes to life and attacks the characters. Water Trap.
+            When the trapdoor is opened, water erupts into the room through a
+            grate that was covered by the trapdoor and the doors to this room
+            immediately close and lock (see the “Zaldara’s Basement: General
+            Features” sidebar). A successful DC 20 Strength check closes the
+            trapdoor. When one of the doors to the room is opened, the trapdoor
+            closes.
           </li>
         </ul>
       </Card>
-      <br />
-      <br />
+    </span>
+    <span class="justify-center centered-element" style="width: 30%;">
+      <Card class="scroll-card">
+        <h5
+          class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+        >
+          Trap Flow
+        </h5>
+        <ul>
+          <li>
+            On initiative count 20 if the trapdoor is open, 2 feet of water
+            fills the room. A creature completely submerged in the water begins
+            suffocating (see “Suffocating” in chapter 8, “Adventuring,” of the
+            Player’s Handbook.)
+          </li>
+        </ul>
+      </Card>
+    </span>
+    <span class="justify-center centered-element" style="width: 30%;">
+      <Card class="scroll-card">
+        <h5
+          class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+        >
+          Treasure
+        </h5>
+        <ul>
+          <li>
+            A DC 15 Wisdom (Perception) check notices the corners of a pouch
+            held by the skeleton also caught under the trapdoor. If the trapdoor
+            is lifted up and the skeleton is vanquished, this pouch can be
+            recovered. It contains 100 gp.
+          </li>
+        </ul>
+      </Card>
     </span>
   </div>
 </span>
